@@ -1,13 +1,13 @@
 damageproto
 ------------------------------------------
-Xorg XDamage protocol headers
+Xorg XDamage prototype headers
 
 Build requirements:
-  cygwin-1.5.18-1
-  cygport-0.2.2-1
-  gawk-3.1.5-2
-  make-3.80-1
-  sed-4.1.5-1
+  cygwin-1.5.24-2
+  cygport-0.3.5-1
+  gawk-3.1.5-4
+  make-3.81-1
+  sed-4.1.5-2
 
 Canonical website:
   http://xorg.freedesktop.org/
@@ -18,15 +18,15 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack damageproto-1.0.3-X-src.tar.bz2
+  unpack damageproto-1.1.0-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./damageproto-1.0.3-X.cygport all
+  cygport ./damageproto-1.1.0-X.cygport all
 
 This will create:
-  /usr/src/damageproto-1.0.3-X-src.tar.bz2
-  /usr/src/damageproto-1.0.3-X.tar.bz2
+  /usr/src/damageproto-1.1.0-X-src.tar.bz2
+  /usr/src/damageproto-1.1.0-X.tar.bz2
 
 -------------------------------------------
 
@@ -35,13 +35,21 @@ Files included in the binary package:
   /usr/include/X11/extensions/damageproto.h
   /usr/include/X11/extensions/damagewire.h
   /usr/lib/pkgconfig/damageproto.pc
-  /usr/share/doc/Cygwin/damageproto-1.0.3.README
-  /usr/share/doc/damageproto-1.0.3/COPYING
-  /usr/share/doc/damageproto-1.0.3/ChangeLog
+  /usr/share/doc/Cygwin/damageproto-1.1.0.README
+  /usr/share/doc/damageproto-1.1.0/AUTHORS
+  /usr/share/doc/damageproto-1.1.0/ChangeLog
+  /usr/share/doc/damageproto-1.1.0/COPYING
+  /usr/share/doc/damageproto-1.1.0/INSTALL
+  /usr/share/doc/damageproto-1.1.0/NEWS
+  /usr/share/doc/damageproto-1.1.0/README
+  /usr/share/doc/damageproto-1.1.0/damageproto.txt
 
 ------------------
 
 Port Notes:
+
+----- version 1.1.0-1 -----
+Version bump for X11R7.3.
 
 ----- version 1.0.3-1 -----
 Initial Cygwin release of modular X11R7.0.

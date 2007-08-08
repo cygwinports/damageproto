@@ -1,3 +1,4 @@
 category: X11
-sdesc: "Xorg XDamage protocol headers"
-ldesc: "Xorg XDamage protocol headers"
+requires: xproto fixesproto
+sdesc: "Xorg XDamage prototype headers"
+ldesc: "Xorg XDamage prototype headers"
