@@ -1,3 +1,0 @@
-inherit xorg
-
-MAKEOPTS+=" damagedocdir=/usr/share/doc/${P}"
